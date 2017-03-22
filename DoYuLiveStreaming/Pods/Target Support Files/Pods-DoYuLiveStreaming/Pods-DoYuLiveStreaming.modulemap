@@ -1,0 +1,6 @@
+framework module Pods_DoYuLiveStreaming {
+  umbrella header "Pods-DoYuLiveStreaming-umbrella.h"
+
+  export *
+  module * { export * }
+}

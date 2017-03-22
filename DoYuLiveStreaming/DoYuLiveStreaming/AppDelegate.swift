@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //MARK:- 设置窗口根控制器
     func setUpRootViewController(){
 //        0、创建窗口
-        window = UIWindow(frame: UIScreen.main.bounds)
+        window = UIWindow(frame: SP_ScreenBounds)
 //        1、设置窗口根控制器
         window?.rootViewController = SPTabBarController()
 //        2、显示窗口
