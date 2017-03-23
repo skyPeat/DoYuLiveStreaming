@@ -12,8 +12,6 @@
 		840667D11E8242C4001CCA1C /* SPRecreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840667D01E8242C4001CCA1C /* SPRecreationViewController.swift */; };
 		840667D31E8242DB001CCA1C /* SPGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840667D21E8242DB001CCA1C /* SPGameViewController.swift */; };
 		840667D51E824306001CCA1C /* SPFunPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840667D41E824306001CCA1C /* SPFunPlayViewController.swift */; };
-		840667E11E8250F4001CCA1C /* SP_Commom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840667E01E8250F4001CCA1C /* SP_Commom.swift */; };
-		840667E31E827616001CCA1C /* SPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840667E21E827616001CCA1C /* SPBaseViewController.swift */; };
 		8484217C1E82BF2C00918154 /* SP_RecommendCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484217B1E82BF2C00918154 /* SP_RecommendCycleView.swift */; };
 		8484217E1E82BF4600918154 /* SP_RecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8484217D1E82BF4600918154 /* SP_RecommendCycleView.xib */; };
 		848421811E82D72000918154 /* SP_NormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484217F1E82D72000918154 /* SP_NormalCell.swift */; };
@@ -22,6 +20,11 @@
 		848421861E82D75F00918154 /* SP_LvChaBiaoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848421841E82D75F00918154 /* SP_LvChaBiaoCell.xib */; };
 		848421891E82ECBF00918154 /* SP_HeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848421871E82ECBF00918154 /* SP_HeaderReusableView.swift */; };
 		8484218A1E82ECBF00918154 /* SP_HeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848421881E82ECBF00918154 /* SP_HeaderReusableView.xib */; };
+		8484218C1E82FE3A00918154 /* SP_NetWorkingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484218B1E82FE3A00918154 /* SP_NetWorkingTool.swift */; };
+		848EA5361E84193000D5AF14 /* SP_CommonConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EA5351E84193000D5AF14 /* SP_CommonConstant.swift */; };
+		848EA5381E84198C00D5AF14 /* SP_CommonExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EA5371E84198C00D5AF14 /* SP_CommonExtention.swift */; };
+		848EA53A1E842C8100D5AF14 /* SP_CommonTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EA5391E842C8100D5AF14 /* SP_CommonTitleView.swift */; };
+		848EA53C1E84374E00D5AF14 /* SP_CommonContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EA53B1E84374E00D5AF14 /* SP_CommonContentView.swift */; };
 		84BBA73B1E8185C300E63BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA73A1E8185C300E63BEB /* AppDelegate.swift */; };
 		84BBA7421E8185C300E63BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BBA7411E8185C300E63BEB /* Assets.xcassets */; };
 		84BBA7451E8185C300E63BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BBA7431E8185C300E63BEB /* LaunchScreen.storyboard */; };
@@ -32,6 +35,7 @@
 		84BBA7851E819C9700E63BEB /* SPAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA7841E819C9700E63BEB /* SPAttentionViewController.swift */; };
 		84BBA7871E819CA500E63BEB /* SPDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA7861E819CA500E63BEB /* SPDiscoverViewController.swift */; };
 		84BBA7891E819CB500E63BEB /* SPMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA7881E819CB500E63BEB /* SPMineViewController.swift */; };
+		84CD87511E8384E600BDF170 /* SP_RecommedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD87501E8384E600BDF170 /* SP_RecommedModel.swift */; };
 		DC9A5F8C486FC4647A19F5E0 /* Pods_DoYuLiveStreaming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD31CB5088FB53F3F56D871 /* Pods_DoYuLiveStreaming.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +46,6 @@
 		840667D01E8242C4001CCA1C /* SPRecreationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRecreationViewController.swift; sourceTree = "<group>"; };
 		840667D21E8242DB001CCA1C /* SPGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGameViewController.swift; sourceTree = "<group>"; };
 		840667D41E824306001CCA1C /* SPFunPlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPFunPlayViewController.swift; sourceTree = "<group>"; };
-		840667E01E8250F4001CCA1C /* SP_Commom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_Commom.swift; sourceTree = "<group>"; };
-		840667E21E827616001CCA1C /* SPBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBaseViewController.swift; sourceTree = "<group>"; };
 		8484217B1E82BF2C00918154 /* SP_RecommendCycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_RecommendCycleView.swift; sourceTree = "<group>"; };
 		8484217D1E82BF4600918154 /* SP_RecommendCycleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SP_RecommendCycleView.xib; sourceTree = "<group>"; };
 		8484217F1E82D72000918154 /* SP_NormalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_NormalCell.swift; sourceTree = "<group>"; };
@@ -52,6 +54,11 @@
 		848421841E82D75F00918154 /* SP_LvChaBiaoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SP_LvChaBiaoCell.xib; sourceTree = "<group>"; };
 		848421871E82ECBF00918154 /* SP_HeaderReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_HeaderReusableView.swift; sourceTree = "<group>"; };
 		848421881E82ECBF00918154 /* SP_HeaderReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SP_HeaderReusableView.xib; sourceTree = "<group>"; };
+		8484218B1E82FE3A00918154 /* SP_NetWorkingTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_NetWorkingTool.swift; sourceTree = "<group>"; };
+		848EA5351E84193000D5AF14 /* SP_CommonConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_CommonConstant.swift; sourceTree = "<group>"; };
+		848EA5371E84198C00D5AF14 /* SP_CommonExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_CommonExtention.swift; sourceTree = "<group>"; };
+		848EA5391E842C8100D5AF14 /* SP_CommonTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_CommonTitleView.swift; sourceTree = "<group>"; };
+		848EA53B1E84374E00D5AF14 /* SP_CommonContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_CommonContentView.swift; sourceTree = "<group>"; };
 		84BBA7371E8185C300E63BEB /* DoYuLiveStreaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoYuLiveStreaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BBA73A1E8185C300E63BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BBA7411E8185C300E63BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +71,7 @@
 		84BBA7841E819C9700E63BEB /* SPAttentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAttentionViewController.swift; sourceTree = "<group>"; };
 		84BBA7861E819CA500E63BEB /* SPDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDiscoverViewController.swift; sourceTree = "<group>"; };
 		84BBA7881E819CB500E63BEB /* SPMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPMineViewController.swift; sourceTree = "<group>"; };
+		84CD87501E8384E600BDF170 /* SP_RecommedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_RecommedModel.swift; sourceTree = "<group>"; };
 		8B1780E06E44D3DAD70597FB /* Pods-DoYuLiveStreaming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoYuLiveStreaming.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoYuLiveStreaming/Pods-DoYuLiveStreaming.debug.xcconfig"; sourceTree = "<group>"; };
 		E8B4B9F133B0A38DDF70009B /* Pods-DoYuLiveStreaming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoYuLiveStreaming.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoYuLiveStreaming/Pods-DoYuLiveStreaming.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,38 +88,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		840667D61E824D4F001CCA1C /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				840667D71E824D4F001CCA1C /* Controller */,
-				840667D81E824D4F001CCA1C /* Model */,
-				840667D91E824D4F001CCA1C /* View */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		840667D71E824D4F001CCA1C /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				840667E21E827616001CCA1C /* SPBaseViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		840667D81E824D4F001CCA1C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		840667D91E824D4F001CCA1C /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		84BBA72E1E8185C300E63BEB = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				84BBA75F1E8193E500E63BEB /* Main */,
-				840667D61E824D4F001CCA1C /* Base */,
 				84BBA7571E8193E500E63BEB /* Home */,
 				84BBA75B1E8193E500E63BEB /* Live */,
 				84BBA7801E819C7A00E63BEB /* Attention */,
@@ -191,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				84BBA7581E8193E500E63BEB /* Controller */,
+				84CD874B1E83846F00BDF170 /* ViewModel */,
 				84BBA7591E8193E500E63BEB /* Model */,
 				84BBA75A1E8193E500E63BEB /* View */,
 			);
@@ -293,6 +269,8 @@
 		84BBA7621E8193E500E63BEB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				848EA5391E842C8100D5AF14 /* SP_CommonTitleView.swift */,
+				848EA53B1E84374E00D5AF14 /* SP_CommonContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -332,7 +310,9 @@
 		84BBA7671E8193E500E63BEB /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				840667E01E8250F4001CCA1C /* SP_Commom.swift */,
+				8484218B1E82FE3A00918154 /* SP_NetWorkingTool.swift */,
+				848EA5351E84193000D5AF14 /* SP_CommonConstant.swift */,
+				848EA5371E84198C00D5AF14 /* SP_CommonExtention.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -377,6 +357,14 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		84CD874B1E83846F00BDF170 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84CD87501E8384E600BDF170 /* SP_RecommedModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		933DF81D50FB1952FE5E6C4D /* Pods */ = {
@@ -527,22 +515,26 @@
 				840667CF1E82429D001CCA1C /* SPHandGameViewController.swift in Sources */,
 				840667D31E8242DB001CCA1C /* SPGameViewController.swift in Sources */,
 				840667D11E8242C4001CCA1C /* SPRecreationViewController.swift in Sources */,
+				848EA5361E84193000D5AF14 /* SP_CommonConstant.swift in Sources */,
+				848EA5381E84198C00D5AF14 /* SP_CommonExtention.swift in Sources */,
 				848421891E82ECBF00918154 /* SP_HeaderReusableView.swift in Sources */,
 				84BBA7891E819CB500E63BEB /* SPMineViewController.swift in Sources */,
 				84BBA7851E819C9700E63BEB /* SPAttentionViewController.swift in Sources */,
 				840667CD1E824269001CCA1C /* SPRecommendViewController.swift in Sources */,
 				840667D51E824306001CCA1C /* SPFunPlayViewController.swift in Sources */,
 				84BBA77F1E819C0000E63BEB /* SPLiveViewController.swift in Sources */,
-				840667E11E8250F4001CCA1C /* SP_Commom.swift in Sources */,
+				8484218C1E82FE3A00918154 /* SP_NetWorkingTool.swift in Sources */,
 				848421811E82D72000918154 /* SP_NormalCell.swift in Sources */,
-				840667E31E827616001CCA1C /* SPBaseViewController.swift in Sources */,
+				848EA53A1E842C8100D5AF14 /* SP_CommonTitleView.swift in Sources */,
 				84BBA77D1E819BDB00E63BEB /* SPHomeViewController.swift in Sources */,
 				848421851E82D75F00918154 /* SP_LvChaBiaoCell.swift in Sources */,
 				84BBA77B1E819AE700E63BEB /* SPNavigationController.swift in Sources */,
 				84BBA7791E819AB700E63BEB /* SPTabBarController.swift in Sources */,
 				8484217C1E82BF2C00918154 /* SP_RecommendCycleView.swift in Sources */,
 				84BBA7871E819CA500E63BEB /* SPDiscoverViewController.swift in Sources */,
+				848EA53C1E84374E00D5AF14 /* SP_CommonContentView.swift in Sources */,
 				84BBA73B1E8185C300E63BEB /* AppDelegate.swift in Sources */,
+				84CD87511E8384E600BDF170 /* SP_RecommedModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,6 +647,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B1780E06E44D3DAD70597FB /* Pods-DoYuLiveStreaming.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = EQ5S6DVB5G;
@@ -670,6 +663,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E8B4B9F133B0A38DDF70009B /* Pods-DoYuLiveStreaming.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = EQ5S6DVB5G;

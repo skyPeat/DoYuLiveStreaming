@@ -32,7 +32,7 @@ extension SPTabBarController{
     private func addChildViewControllers(viewController:UIViewController,title:String,normalImageName:String,selectedImageName:String){
         viewController.title = title
         viewController.tabBarItem.image = UIImage(named: normalImageName)
-        viewController.tabBarItem.selectedImage = UIImage().originalImage(imageName: selectedImageName)
+        viewController.tabBarItem.selectedImage = UIImage(named: selectedImageName)?.withRenderingMode(.alwaysOriginal)
         UITabBar.appearance().tintColor = UIColor.orange
         addChildViewController(SPNavigationController(rootViewController: viewController))
     }
