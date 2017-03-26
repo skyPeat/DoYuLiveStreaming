@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Kingfisher
 class SP_NormalCell: UICollectionViewCell {
 //    设置属性
     @IBOutlet weak var normalImageView: UIImageView!
@@ -15,9 +15,22 @@ class SP_NormalCell: UICollectionViewCell {
     @IBOutlet weak var name: UIButton!
     @IBOutlet weak var describeLabel: UILabel!
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    var group : SP_AnchorModel?{
+        didSet{
+//            在线人数
+            guard let group = group else{return}
+            var onlineStr = ""
+            if group.online >= 10000 {
+                onlineStr = "\(Double(group.online) / 10000.0)万人在线"
+            }else{
+                onlineStr = "\(group.online)人在线"
+            }
+            attentionCount.setTitle(onlineStr, for: .normal)
+            name.setTitle(group.nickname, for: .normal)
+            describeLabel.text = group.room_name
+            guard let iconUrl = URL(string: group.vertical_src) else {return}
+            normalImageView.kf.setImage(with: iconUrl)
+        }
     }
 
 }

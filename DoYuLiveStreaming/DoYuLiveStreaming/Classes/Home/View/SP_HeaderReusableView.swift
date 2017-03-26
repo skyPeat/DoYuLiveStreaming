@@ -13,9 +13,10 @@ class SP_HeaderReusableView: UICollectionReusableView {
     @IBOutlet weak var titleImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var moreButton: UIButton!
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    var group : SP_GroupModel?{
+        didSet{
+            titleImageView.image = UIImage(named: group?.icon_name ?? "home_header_normal")
+            titleLabel.text = group?.tag_name
+        }
     }
-    
 }

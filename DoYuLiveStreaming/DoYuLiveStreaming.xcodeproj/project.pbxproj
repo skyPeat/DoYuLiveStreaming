@@ -25,6 +25,9 @@
 		848EA5381E84198C00D5AF14 /* SP_CommonExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EA5371E84198C00D5AF14 /* SP_CommonExtention.swift */; };
 		848EA53A1E842C8100D5AF14 /* SP_CommonTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EA5391E842C8100D5AF14 /* SP_CommonTitleView.swift */; };
 		848EA53C1E84374E00D5AF14 /* SP_CommonContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EA53B1E84374E00D5AF14 /* SP_CommonContentView.swift */; };
+		84959F1E1E8586C6000D4539 /* SP_AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84959F1D1E8586C6000D4539 /* SP_AnchorModel.swift */; };
+		84959F201E858F34000D4539 /* SP_GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84959F1F1E858F34000D4539 /* SP_GroupModel.swift */; };
+		84AF00B01E85130900000BC6 /* SP_RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF00AF1E85130900000BC6 /* SP_RecommendViewModel.swift */; };
 		84BBA73B1E8185C300E63BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA73A1E8185C300E63BEB /* AppDelegate.swift */; };
 		84BBA7421E8185C300E63BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BBA7411E8185C300E63BEB /* Assets.xcassets */; };
 		84BBA7451E8185C300E63BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BBA7431E8185C300E63BEB /* LaunchScreen.storyboard */; };
@@ -35,7 +38,6 @@
 		84BBA7851E819C9700E63BEB /* SPAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA7841E819C9700E63BEB /* SPAttentionViewController.swift */; };
 		84BBA7871E819CA500E63BEB /* SPDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA7861E819CA500E63BEB /* SPDiscoverViewController.swift */; };
 		84BBA7891E819CB500E63BEB /* SPMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA7881E819CB500E63BEB /* SPMineViewController.swift */; };
-		84CD87511E8384E600BDF170 /* SP_RecommedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD87501E8384E600BDF170 /* SP_RecommedModel.swift */; };
 		DC9A5F8C486FC4647A19F5E0 /* Pods_DoYuLiveStreaming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD31CB5088FB53F3F56D871 /* Pods_DoYuLiveStreaming.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,9 @@
 		848EA5371E84198C00D5AF14 /* SP_CommonExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_CommonExtention.swift; sourceTree = "<group>"; };
 		848EA5391E842C8100D5AF14 /* SP_CommonTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_CommonTitleView.swift; sourceTree = "<group>"; };
 		848EA53B1E84374E00D5AF14 /* SP_CommonContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_CommonContentView.swift; sourceTree = "<group>"; };
+		84959F1D1E8586C6000D4539 /* SP_AnchorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_AnchorModel.swift; sourceTree = "<group>"; };
+		84959F1F1E858F34000D4539 /* SP_GroupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_GroupModel.swift; sourceTree = "<group>"; };
+		84AF00AF1E85130900000BC6 /* SP_RecommendViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_RecommendViewModel.swift; sourceTree = "<group>"; };
 		84BBA7371E8185C300E63BEB /* DoYuLiveStreaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoYuLiveStreaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BBA73A1E8185C300E63BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BBA7411E8185C300E63BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,7 +76,6 @@
 		84BBA7841E819C9700E63BEB /* SPAttentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAttentionViewController.swift; sourceTree = "<group>"; };
 		84BBA7861E819CA500E63BEB /* SPDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDiscoverViewController.swift; sourceTree = "<group>"; };
 		84BBA7881E819CB500E63BEB /* SPMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPMineViewController.swift; sourceTree = "<group>"; };
-		84CD87501E8384E600BDF170 /* SP_RecommedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SP_RecommedModel.swift; sourceTree = "<group>"; };
 		8B1780E06E44D3DAD70597FB /* Pods-DoYuLiveStreaming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoYuLiveStreaming.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoYuLiveStreaming/Pods-DoYuLiveStreaming.debug.xcconfig"; sourceTree = "<group>"; };
 		E8B4B9F133B0A38DDF70009B /* Pods-DoYuLiveStreaming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoYuLiveStreaming.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoYuLiveStreaming/Pods-DoYuLiveStreaming.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -189,6 +193,8 @@
 		84BBA7591E8193E500E63BEB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				84959F1F1E858F34000D4539 /* SP_GroupModel.swift */,
+				84959F1D1E8586C6000D4539 /* SP_AnchorModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -362,7 +368,7 @@
 		84CD874B1E83846F00BDF170 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				84CD87501E8384E600BDF170 /* SP_RecommedModel.swift */,
+				84AF00AF1E85130900000BC6 /* SP_RecommendViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -512,10 +518,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AF00B01E85130900000BC6 /* SP_RecommendViewModel.swift in Sources */,
 				840667CF1E82429D001CCA1C /* SPHandGameViewController.swift in Sources */,
 				840667D31E8242DB001CCA1C /* SPGameViewController.swift in Sources */,
 				840667D11E8242C4001CCA1C /* SPRecreationViewController.swift in Sources */,
+				84959F201E858F34000D4539 /* SP_GroupModel.swift in Sources */,
 				848EA5361E84193000D5AF14 /* SP_CommonConstant.swift in Sources */,
+				84959F1E1E8586C6000D4539 /* SP_AnchorModel.swift in Sources */,
 				848EA5381E84198C00D5AF14 /* SP_CommonExtention.swift in Sources */,
 				848421891E82ECBF00918154 /* SP_HeaderReusableView.swift in Sources */,
 				84BBA7891E819CB500E63BEB /* SPMineViewController.swift in Sources */,
@@ -534,7 +543,6 @@
 				84BBA7871E819CA500E63BEB /* SPDiscoverViewController.swift in Sources */,
 				848EA53C1E84374E00D5AF14 /* SP_CommonContentView.swift in Sources */,
 				84BBA73B1E8185C300E63BEB /* AppDelegate.swift in Sources */,
-				84CD87511E8384E600BDF170 /* SP_RecommedModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

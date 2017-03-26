@@ -15,15 +15,18 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - Alamofire (4.2.0)
+  - Kingfisher (3.2.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - Alamofire
+  - Kingfisher
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  Kingfisher: 821466474ad7ffc375a4aecadfa05068cfed67b3
 
-PODFILE CHECKSUM: 0c3ae88a5221b8ec7c3a22dad79aea7a702b00f1
+PODFILE CHECKSUM: 1132ee9ceb873e38784dfa22ff930ac262b813e2
 
 COCOAPODS: 1.1.1

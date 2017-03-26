@@ -38,6 +38,7 @@ class SPRecommendViewController: UIViewController {
         collectionView.autoresizingMask = [.flexibleWidth,.flexibleHeight]
         return collectionView
     }()
+    lazy var recommendVM : SP_RecommendViewModel = SP_RecommendViewModel()
 //    系统回调函数
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,46 +47,46 @@ class SPRecommendViewController: UIViewController {
 //    添加工具栏
 //    添加collectionView
         setUpCollectionView()
+//    请求数据
+        recommendVM.requestData{
+            self.collectionView.reloadData()
+        }
     }
-    
 }
-extension SPRecommendViewController{
-
-}
-extension SPRecommendViewController{
-
-}
+//MARK:- 遵守协议，实现协议方法
 extension SPRecommendViewController : UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,UICollectionViewDelegate{
     func setUpCollectionView(){
         view.addSubview(collectionView)
     }
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 12
+        return recommendVM.groupModel.count
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        if section == 0 {
-              return 8
-        }
-        return 4
+        return recommendVM.groupModel[section].anchorModels.count
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        var cell : UICollectionViewCell!
-        if indexPath.section == 2 {
-             cell = collectionView.dequeueReusableCell(withReuseIdentifier: KLvChaBiaoID, for: indexPath)
+        let anchorModel = recommendVM.groupModel[indexPath.section].anchorModels[indexPath.item]
+        if indexPath.section == 1 {
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: KLvChaBiaoID, for: indexPath) as! SP_LvChaBiaoCell
+            cell.group = anchorModel
+            return cell
         }else{
-             cell = collectionView.dequeueReusableCell(withReuseIdentifier: KNormalID, for: indexPath)
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: KNormalID, for: indexPath) as! SP_NormalCell
+            cell.group = anchorModel
+            return cell
         }
-        return cell
     }
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: KheaderID, for: indexPath)
+        let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: KheaderID, for: indexPath) as! SP_HeaderReusableView
+        headerView.group = recommendVM.groupModel[indexPath.section]
         return headerView
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize{
-        if indexPath.section == 2 {
+        if indexPath.section == 1 {
             return CGSize(width: itemW, height: LitemH)
         }else{
             return CGSize(width: itemW, height: NitemH)
         }
     }
 }
+
